@@ -56,6 +56,18 @@ const Dashboard = () => {
                         </div>
                     </Paper>
                 </Grid>
+                <Grid item xs={12} md={4}>
+                    <Paper sx={{ p: 2, display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                        <Typography variant="h6">Indices Rate</Typography>
+                        <div>
+                            {Object.entries(indicesRate).map(([index, rate]) => (
+                                <Typography key={index} variant="subtitle1">
+                                    {`${index}: ${rate}`}
+                                </Typography>
+                            ))}
+                        </div>
+                    </Paper>
+                </Grid>
             </Grid>
         </Container>
     );
