@@ -4,4 +4,5 @@ data class Account(
     val uuid: String?,
     val name: String,
     val description: String?,
+    val tags: Set<String>?,
 )
