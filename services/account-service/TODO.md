@@ -4,3 +4,4 @@
 3. Add asset to account
 4. Calculate asset value
 5. Add spring contracts
+6. Design UI
